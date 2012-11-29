@@ -4,6 +4,6 @@ require 'stringex/unidecoder'
 
 String.send :include, Stringex::StringExtensions
 
-require 'stringex/acts_as_url' if defined?(ActiveRecord) || defined?(Mongoid::Document)
+# require 'stringex/acts_as_url' if defined?(ActiveRecord) || defined?(Mongoid::Document)
 
-ActiveRecord::Base.send :include, Stringex::ActsAsUrl if defined?(ActiveRecord)
+# ActiveRecord::Base.send :include, Stringex::ActsAsUrl if defined?(ActiveRecord)
